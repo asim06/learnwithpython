@@ -1,4 +1,8 @@
 import xlrd
+import module1
+
+#module1 tarafımca oluşturduğum, okunabilirliği attırması için fonksiyonlardan oluşan kütüphanedir.
+
 #the library for read from excel file
 
 #Read for Irregular Word LEARN GAME
@@ -88,18 +92,12 @@ def learn_word(words,means,synonym):
     print("Sum of mistake",len(wrong_answers))
     
             
-            
-            
-       
-       
-
+           
+                   
 
 def write_words(words,means,synonym):
     for i in range(1,10):
         print("\t"+words[i]+"\t\t"+"|"+means[i]+"|"+"\t"+str(synonym[i])+"\n")
-
-
-
 
 
 
@@ -122,6 +120,9 @@ if choose == "1":
         learn_word(words,means,synonym)
 
 elif choose == "2":
-    print("as")
+    
+    module1.gameMix(infinitive,simple_past,past_participle)
 else:
     print("you've wrong chosen",choose)
+
+    
