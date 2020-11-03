@@ -8,6 +8,7 @@ import module1
 #Read for Irregular Word LEARN GAME
 
 def read_word_Irregular():
+    #farklı bir dizin yada dosya vermek istiyorsanız path yolunu veya ismini değiştiriniz.
     path = "ListofIrregularVerbs.xlsx"
     inputWorkbook = xlrd.open_workbook(path)
     inputWorksheet = inputWorkbook.sheet_by_index(0)
