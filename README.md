@@ -6,3 +6,7 @@ Excel dosyasında ki kelimlerin öğrenilmesi için tekrardan yapma ortamı sağ
 
 ### Nasıl Çalıştırılır ?
 
+
+#### Şu kütüphane/modüle bağlıdır. Kurulması gereklidir.
+pip install xlrd
+
