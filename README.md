@@ -5,7 +5,8 @@ Kelime öğrenilmesi için geliştirdiğim basit python uygulamasıdır.
 pip install xlrd
 
 ## Neler yapıyor ?
-Excel dosyasında ki kelimlerin öğrenilmesi için tekrardan yapma ortamı sağlıyor. Kelimelerin v1, v2  ve v3 versiyonlarında karıştırak sizin öğrenmenizi sağlıyor. Eş anlamlı kelimleri var ise soru içeresinde hatırlatıyor yada size ipucu veriyor.
+Excel dosyası içeresinde bulunan düzensiz fiiler ve kelimeler bulunmaktadır.Bu iki dosyaya istediğimiz kadar kelime ekleyip/çıkarabiliriz. Bunlardan yapılan dosya okuma işlemi sayesinde ezber yapabilirsiniz. Düzensiz fiiler ve kelimeler, sizin seçiminize göre öğrenim tipi başlayıp size kelimelerin ingilizcesini soracaktır. Soru soruluyorken kelimelerin kopyalarını da veriecektir.
+
 
 ### Nasıl Çalıştırılır ?
 python learn.py 
