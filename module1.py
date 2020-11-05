@@ -94,3 +94,29 @@ def gameMix(infinitive,simple_past,past_participle):
 
     
 
+#print("Welcome new game, you will learn Irregular Word"+"What do you learn ?"+"v1,v2,v3")
+
+#choose = input("just chose one:  \t | v1 \t | mix \n")
+
+
+
+#if choose == "v1":
+#    print("You have chosen v1 game")
+#    gamev1(infinitive,simple_past,past_participle)
+   
+##It will add later
+##elif choose== "v2":
+##    print("You will learn v2")
+##It will add later
+##elif choose == "v3":
+##    print("You will learn v3")
+
+
+#elif choose == "mix":
+
+#    print("\n \n  \t \t \t \t \tYou have chosen mix game \n")
+#    gameMix(infinitive,simple_past,past_participle)
+
+##else:
+##    print("You have wrong chosen ")
+#lenofData = len(infinitive)
