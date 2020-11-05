@@ -1,14 +1,11 @@
 import xlrd
 import module1
 
-#module1 tarafımca oluşturduğum, okunabilirliği attırması için fonksiyonlardan oluşan kütüphanedir.
-
 #the library for read from excel file
 
 #Read for Irregular Word LEARN GAME
 
 def read_word_Irregular():
-    #farklı bir dizin yada dosya vermek istiyorsanız path yolunu veya ismini değiştiriniz.
     path = "ListofIrregularVerbs.xlsx"
     inputWorkbook = xlrd.open_workbook(path)
     inputWorksheet = inputWorkbook.sheet_by_index(0)
@@ -97,7 +94,8 @@ def learn_word(words,means,synonym):
                    
 
 def write_words(words,means,synonym):
-    for i in range(1,10):
+   
+    for i in range(1,len(words)):
         print("\t"+words[i]+"\t\t"+"|"+means[i]+"|"+"\t"+str(synonym[i])+"\n")
 
 
@@ -115,9 +113,11 @@ if choose == "1":
     choose1 = input("Do you want look all words before game ? you should write yes/no \n")
     if choose1 =="yes":
         write_words(words,means,synonym)
+        print("there have",len(words),"many word")
         learn_word(words,means,synonym)
     else:
-        print("you're restirc")
+       
+        print("there have",len(words),"many word")
         learn_word(words,means,synonym)
 
 elif choose == "2":
