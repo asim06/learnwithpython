@@ -1,4 +1,4 @@
-# selflearnwithpython
+# learnwithpython
 Kelime öğrenilmesi için geliştirdiğim basit python uygulamasıdır.
 
 #### Şu kütüphane/modüle bağlıdır. Kurulması gereklidir.
